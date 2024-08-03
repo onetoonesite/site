@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Турниры</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="bglogo">
+                <img class="logo" src="img/logo.svg">
+            </div>
+            <div class="buttons">
+                <select name="delivery_type">
+                    <option>Український</option>
+                    <option>English</option>
+                </select>
+            </div>
+        </header>
+        <div class="info">
+        <aside>
+            <button class="aside_button" onclick="showMain(1)">Информация о проведения турниров</button>
+            <button class="aside_button" onclick="showMain(2)">Активные турниры</button>
+            <button class="aside_button" onclick="showMain(3)">О компание</button>
+            <button class="aside_button" onclick="showMain(4)">Участвывать в турнире</button>
+        </aside>
+        <div class="center">
+            <main class="mainn hidden" id="main-1" class="show">
+                Инфо
+            </main>
+            <main class="mainn hidden" id="main-2">
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><img src="" alt="">photo</td>
+                    </tr>
+                </table>
+            </main>
+            <main class="mainn hidden" id="main-3">
+                Инфо
+            </main>
+            <main class="mainn hidden" id="main-4">
+                <a href="https://secure.wayforpay.com/button/bacd09522f38c" style="display:inline-block!important;background:#0488cd;background-size:cover;
+                width: 256px!important;height:54px!important;border:none!important;border-radius:14px!important;padding:18px!important;text-decoration:none!important;
+                box-shadow:3px 2px 8px rgba(71,66,66,0.22)!important;text-align:center!important;outline:none!important;" onmouseover="this.style.opacity='0.8';"
+                 onmouseout="this.style.opacity='1';"> <span style="font-family:Verdana,Arial,sans-serif!important;font-weight:bold!important;font-size:14px!important;
+                 color:#ffffff!important;line-height:18px!important;vertical-align:middle!important;">Оплатить</span></a>
+            </main>  
+        </div>
+        </div>
+        <footer>
+            <p>Name Company</p>
+            <div class="so">
+                <a href="https://t.me/Hamsterkombat20247"><img src="img/tg.png" class="tg"></a>
+                <a href="https://discord.gg/V2wURUsQAG"><img src="img/ds.png" class="ds"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
